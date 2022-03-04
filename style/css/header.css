@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color:aquamarine;
+}
+.in_header{
+    margin: auto ;
+    width: 1105px;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+}
+.in_header-logo{
+    width: 10%;
+    height: auto;
+}
+.in_header-logo img{
+    width: 100%;
+    height: auto;
+}
+.in_header-bc{
+    width: 55%;
+    height: auto;
+}
+.in_header-bc ul{
+    display: flex;
+    justify-content: space-around;
+}
+.in_header-bc li{
+    list-style: none;
+    float: left ;
+    display:inline;
+}
+
